@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarak Mehta Ka Ulta Chsma</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+      transition: 1s;
+    }
+    #mobile-menu {
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+    }
+    </style>
+<body class="bg-black text-white overflow-x-hidden">
+  <header class="bg-gradient-to-r from-yellow-500 to-orange-500 " style="backdrop-filter: blur(50px);">
+    <div class="container mx-auto flex justify-between items-center py-4 px-3  sm:px-6">
+      <!-- Title -->
+      <div>
+        <h1 class="text-2xl font-bold text-white">Gokuldham Society</h1>
+        <p class="text-sm text-white">Unity in Diversity</p>
+      </div>
+      
+      <!-- Nav Links (Desktop View) -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="text-white font-medium hover:text-gray-200">Home</a>
+        <a href="#characters" class="text-white font-medium hover:text-gray-200">Characters</a>
+        <a href="#episodes" class="text-white font-medium hover:text-gray-200">Episodes</a>
+        <a href="#about" class="text-white font-medium hover:text-gray-200">About</a>
+      </nav>
+      
+      <!-- Hamburger Icon (Mobile View) -->
+      <button id="menu-toggle" class="md:hidden text-white text-2xl transition flex items-center">
+        <i id="menu-icon" class="ri-menu-line text-3xl"></i>
+      </button>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <nav
+    id="mobile-menu"
+    class="hidden max-h-0 opacity-0 overflow-hidden bg-yellow-500 md:hidden"
+    >
+    <a href="#home" class="block px-6 py-2 text-white hover:bg-yellow-600">Home</a>
+    <a href="#characters" class="block px-6 py-2 text-white hover:bg-yellow-600">Characters</a>
+    <a href="#episodes" class="block px-6 py-2 text-white hover:bg-yellow-600">Episodes</a>
+    <a href="#about" class="block px-6 py-2 text-white hover:bg-yellow-600">About</a>
+  </nav>
+</header>
+<div class="my-5 container mx-auto px-5">
+  <h2 class="text-xl font-semibold">Welcome to Gokuldham Society!</h2>
+  <p class="text-gray-700">
+    Explore the vibrant lives of your favorite characters and their
+    unforgettable moments.
+  </p>
+
+</div>
+<div class="w-[80%] h-[80%] mx-auto">
+
+  <img  src="https://i.ytimg.com/vi/3sjKDdf1mE0/maxresdefault.jpg" alt="" class="w-screen h-screen object-cover">
+</div>
+
+  <!-- Content -->
+  
+  <main class="container mx-auto mt-8 px-4">
+    
+    
+   
+    <h2 class="text-xl font-semibold text-white text-center">Gokuldham Society Characters</h2>
+    <p class="text-gray-400 text-center">Meet the beloved characters</p>
+
+    <!-- Character List in Vertical Layout -->
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Character 1 -->
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+        <img src="https://static.tnn.in/thumb/msid-91809711,thumbsize-33968,width-1280,height-720,resizemode-75/91809711.jpg" alt="Jethalal" class="w-full h-[285px] object-cover rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-4">Jethalal</h3>
+        <p class="text-sm text-gray-400">The funny businessman</p>
+      </div>
+
+      <!-- Character 2 -->
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+        <img src="https://images.slivcdn.com/landscape_thumb/tmkoc_landscape_thumbnail_ep35.jpg?w=500&q=low" alt="Tapu" class="w-full h-[285px] object-cover rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-4">Tapu</h3>
+        <p class="text-sm text-gray-400">Leader of the Tapu Sena</p>
+      </div>
+
+      <!-- Character 3 -->
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/ezgif-3-023ae9eb0030_1200x768.jpeg?size=1200:675" alt="Daya" class="w-full h-[285px] object-cover rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-4">Daya</h3>
+        <p class="text-sm text-gray-400">Jethalal's loving wife</p>
+      </div>
+
+      <!-- Character 4 -->
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+        <img src="https://staticimg.amarujala.com/assets/images/2020/03/04/ul_1583302332.jpeg" alt="Bapuji" class="w-full h-[285px] object-cover rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-4">Bapuji</h3>
+        <p class="text-sm text-gray-400">The wise father figure</p>
+      </div>
+
+      <!-- Character 5 -->
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+        <img src="https://origin-staticv2.sonyliv.com/landscape_thumb/show_sab_taarakmehta_ep3091_Landscape_Thumb.jpg" alt="Dolly" class="w-full h-[285px] object-cover rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-4">Babita</h3>
+        <p class="text-sm text-gray-400">Jethalal crus</p>
+      </div>
+
+      <!-- Character 6 -->
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+        <img src="https://admin.tellychakkar.com/sites/www.tellychakkar.com/files/s3fs-public/images/story/2022/12/27/tanuj.jpg" alt="Iyer" class="w-full h-[285px] object-cover rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-4">Iyer</h3>
+        <p class="text-sm text-gray-400">The cultured and disciplined man</p>
+      </div>
+
+    </div>
+  </main>
+  <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto my-8">
+
+    <!-- Column 1: Gokuldham Events (Desktop only) -->
+    <div class="hidden lg:block  shadow-md rounded-lg p-4 ">
+      <h2 class="text-xl font-bold mb-2">Gokuldham Events</h2>
+      <ul class="list-disc pl-4 ">
+        <li>Holi Celebration</li>
+        <li>Ganpati Utsav</li>
+        <li>Navratri Dance Night</li>
+      </ul>
+    </div>
+
+    <!-- Column 2: Character Cards -->
+    <div class=" shadow-md rounded-lg p-4">
+      <h2 class="text-xl font-bold mb-2">Favourite Characters</h2>
+      <div class="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
+        <!-- Character Card 1 -->
+        <div class="flex items-center space-x-4">
+          <img src="https://static.tnn.in/thumb/msid-91809711,thumbsize-33968,width-1280,height-720,resizemode-75/91809711.jpg" alt="Jethalal" class="w-16 h-16 rounded-full object-cover">
+          <div>
+            <h3 class="font-bold">Jethalal</h3>
+            <p>The funny businessman.</p>
+          </div>
+        </div>
+        <!-- Character Card 2 -->
+        <div class="flex items-center space-x-4">
+          <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/ezgif-3-023ae9eb0030_1200x768.jpeg?size=1200:675" alt="Daya" class="w-16 h-16 rounded-full object-cover ">
+          <div>
+            <h3 class="font-bold">Daya</h3>
+            <p>The lively wife of Jethalal.</p>
+          </div>
+        </div>
+        <!-- Add more characters as needed -->
+      </div>
+    </div>
+
+    <!-- Column 3: Popular Dialogues (Tablet & Desktop) -->
+    <div class=" shadow-md rounded-lg p-4">
+      <h2 class="text-xl font-bold mb-2">Popular Dialogues</h2>
+      <ul class="list-disc pl-4">
+        <li>"Tapu ke papa!"</li>
+        <li>"Hey Maa Mataji!"</li>
+        <li>"Bagha, kaam kya hua?"</li>
+      </ul>
+    </div>
+
+    <!-- Column 3: YouTube Links (Desktop only) -->
+  
+  </div>
+  <div class="min-h-screen flex items-center justify-center bg-cover bg-center relative bg-fixed" style="background-image: url('https://wallpapercave.com/wp/wp7211467.jpg');">
+  <!-- Blur Background Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-30 blur-sm"></div>
+
+  <!-- Jokes Section -->
+  <div class="relative z-10 max-w-3xl bg-black text-white bg-opacity-80 backdrop-blur-md p-8 rounded-lg shadow-lg">
+    <h1 class="text-3xl font-bold text-center text-orange-600 mb-6">TMKOC Funny Jokes</h1>
+
+    <!-- Joke 1 -->
+    <div class="p-4 border-b border-gray-300">
+      <p class="text-lg text-gray-300">
+        <span class="font-semibold text-blue-500 capitalize">Jethalal : </span> Are Daya, rat ko mobile charging me mat rakha karo kabhi mobile blast ho jayega!!   
+        <br>
+        <span class="font-semibold text-pink-500 capitalize">Daya :</span> are tapukepapa aap chinta mat kro mene battery nikal ke rakha hai
+      </p>
+    </div>
+
+    <!-- Joke 2 -->
+    <div class="p-4 border-b border-gray-300">
+      <p class="text-lg text-gray-300">
+        <span class="font-semibold text-green-500">Taarak Mehta:</span> Jethalal, tumhara problem kya hai?  
+        <br>
+        <span class="font-semibold text-blue-500">Jethalal:</span> Problem yeh hai ki solution tumhare paas hai!
+      </p>
+    </div>
+
+    <!-- Joke 3 -->
+    <div class="p-4">
+      <p class="text-lg text-gray-300">
+        <span class="font-semibold text-purple-500">Popatlal:</span> Mera rishta kyun nahi ho raha?  
+        <br>
+        <span class="font-semibold text-orange-500">Bhide:</span> Kyunki newspaper mein shadi ka ad likhne se pehle “No Refund Policy” likh dete ho!
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-6 text-center">
+      <p class="text-sm text-gray-600">"TMKOC ke jokes ke saath, zindagi hamesha mast!"</p>
+    </div>
+  </div>
+</div>
+
+  <footer class=" text-white py-6">
+    <div class="container mx-auto text-center space-y-4">
+      <!-- TMKOC Quote -->
+      <p class="text-xl font-bold">
+        "Hamare footer ka bhi Tarak Mehta jaisa motto hai — *problem toh hai, par solution bhi hai!*"
+      </p>
+      
+      <!-- Responsive Joke -->
+      <p class="text-sm italic">
+        "Jethalal ka mobile aur yeh footer — dono fully responsive hain!"
+      </p>
+  
+      <!-- Credits -->
+      <p class="text-sm">
+        &copy; 2025 | Gokuldham Society Footer Pvt. Ltd. | Made with Ankit Sabariya
+      </p>
+    </div>
+  </footer>
+  
+
+  
+
+  <!-- JavaScript -->
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const menuIcon = document.getElementById("menu-icon");
+
+    menuToggle.addEventListener("click", () => {
+      // Toggle the menu's visibility and icon change
+      if (mobileMenu.classList.contains("hidden")) {
+        mobileMenu.classList.remove("hidden");
+        mobileMenu.classList.add("max-h-screen", "opacity-100");
+        menuIcon.classList.replace("ri-menu-line", "ri-close-line");  // Switch to close icon
+      } else {
+        mobileMenu.classList.add("hidden");
+        mobileMenu.classList.remove("max-h-screen", "opacity-100");
+        menuIcon.classList.replace("ri-close-line", "ri-menu-line");  // Switch back to menu icon
+      }
+    });
+  </script>
+  
+</body>
+</html>
